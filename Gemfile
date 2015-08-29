@@ -27,6 +27,10 @@ gem 'devise'
 # Required for image upload
 gem 'paperclip', '~> 4.2'
 
+# Added for admin panel
+gem 'activeadmin', '~> 1.0.0.pre1'
+
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
      gem 'sqlite3'
